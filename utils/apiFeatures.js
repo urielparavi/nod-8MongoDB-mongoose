@@ -58,11 +58,6 @@ class APIFeatures {
     this.query = this.query.skip(skip).limit(limit);
 
     return this;
-
-    // if (this.queryString.page) {
-    //   const numTours = await Tour.countDocuments();
-    //   if (skip >= numTours) throw new Error('This page does not exist.');
-    // }
   }
 }
 
